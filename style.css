@@ -1,0 +1,127 @@
+@font-face {
+  font-family: Roboto;
+   src: url("assets/fonts/RobotoSlab-VariableFont_wght.ttf");
+ }
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fefdfb;
+}
+
+.section {
+  width: 45%;
+}
+
+hr {
+  width: 300px;
+  color: black;
+  background-color: black;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0 8%;
+  background-color: #fff0db;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  color: #704611;
+}
+
+a {
+  text-decoration: none;
+}
+
+.photo {
+  text-align: center;
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+}
+
+#summary {
+  text-align: justify;
+  padding: 0 10%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 8%;
+  list-style: none;
+  background-color: #fef3e4;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-item {
+  margin: 0;
+  padding-right: 80px;
+  line-height: 50px;
+  color: #704611;
+}
+
+.rss {
+  justify-content: flex-end;
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/svg/rss.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.github {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: text-bottom;
+  background-image: url("./assets/svg/github.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  padding-left: 10%;
+}
+
+ul {
+  padding-left: 10%;
+}
+
+.left {
+  padding-left: 30%;
+}
