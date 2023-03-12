@@ -33,3 +33,8 @@ function multiply(a,b){
   Chemist-engineer
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 - EPAM IT Fundamentals (in progress)
+
+## Languages:
+
+- Russian - native
+- English - EPAM English test result: B1
